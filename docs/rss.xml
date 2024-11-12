@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>xxy</title><link>https://xiexingye.github.io</link><description>童话是一种生活态度，仅此而已。</description><copyright>xxy</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://xiexingye.github.io</link></image><lastBuildDate>Tue, 12 Nov 2024 11:52:08 +0000</lastBuildDate><managingEditor>xxy</managingEditor><ttl>60</ttl><webMaster>xxy</webMaster><item><title>lca倍增优化板子</title><link>https://xiexingye.github.io/post/lca-bei-zeng-you-hua-ban-zi.html</link><description>```&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>xxy</title><link>https://xiexingye.github.io</link><description>童话是一种生活态度，仅此而已。</description><copyright>xxy</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://xiexingye.github.io</link></image><lastBuildDate>Tue, 12 Nov 2024 13:16:42 +0000</lastBuildDate><managingEditor>xxy</managingEditor><ttl>60</ttl><webMaster>xxy</webMaster><item><title>二叉搜索树</title><link>https://xiexingye.github.io/post/er-cha-sou-suo-shu.html</link><description># 二叉搜索树功能 &#13;
+复杂度O(logn)&#13;
+能够实现&#13;
+插入一个数&#13;
+删除一个数&#13;
+查询某数的排名（排名定义为比该数小的数的个数+1）&#13;
+查询指定排名的数&#13;
+求某数的前驱（前驱定义为小于该数，且最大的数）&#13;
+求某数的后继（后继定义为大于该数，且最小的数）&#13;
+&#13;
+# 插入&#13;
+从根节点开始，递归地搜索。</description><guid isPermaLink="true">https://xiexingye.github.io/post/er-cha-sou-suo-shu.html</guid><pubDate>Tue, 12 Nov 2024 13:16:18 +0000</pubDate></item><item><title>lca倍增优化板子</title><link>https://xiexingye.github.io/post/lca-bei-zeng-you-hua-ban-zi.html</link><description>```&#13;
 #include&lt;bits/stdc++.h&gt;&#13;
 using namespace std;&#13;
 #define N 500005&#13;
