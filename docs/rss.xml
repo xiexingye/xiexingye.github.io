@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>xxy</title><link>https://xiexingye.github.io</link><description>童话是一种生活态度，仅此而已。</description><copyright>xxy</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://xiexingye.github.io</link></image><lastBuildDate>Tue, 12 Nov 2024 13:21:28 +0000</lastBuildDate><managingEditor>xxy</managingEditor><ttl>60</ttl><webMaster>xxy</webMaster><item><title>线段树</title><link>https://xiexingye.github.io/post/xian-duan-shu.html</link><description># 线段树介绍&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>xxy</title><link>https://xiexingye.github.io</link><description>童话是一种生活态度，仅此而已。</description><copyright>xxy</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://xiexingye.github.io</link></image><lastBuildDate>Tue, 12 Nov 2024 13:22:19 +0000</lastBuildDate><managingEditor>xxy</managingEditor><ttl>60</ttl><webMaster>xxy</webMaster><item><title>欧拉筛优化</title><link>https://xiexingye.github.io/post/ou-la-shai-you-hua.html</link><description>````&#13;
+boolean isPrime(int num) {&#13;
+    if (num &lt;= 3) {&#13;
+        return num &gt; 1;&#13;
+    }&#13;
+    // 不在6的倍数两侧的一定不是质数&#13;
+    if (num % 6 != 1 &amp;&amp; num % 6 != 5) {&#13;
+        return false;&#13;
+    }&#13;
+    int sqrt = (int) Math.sqrt(num);&#13;
+    for (int i = 5; i &lt;= sqrt; i += 6) {&#13;
+        if (num % i == 0 || num % (i + 2) == 0) {&#13;
+            return false;&#13;
+        }&#13;
+    }&#13;
+    return true;&#13;
+}&#13;
+````。</description><guid isPermaLink="true">https://xiexingye.github.io/post/ou-la-shai-you-hua.html</guid><pubDate>Tue, 12 Nov 2024 13:21:44 +0000</pubDate></item><item><title>线段树</title><link>https://xiexingye.github.io/post/xian-duan-shu.html</link><description># 线段树介绍&#13;
 线段树是一种进行区间查询，区间修改，单点修改的数据结构。</description><guid isPermaLink="true">https://xiexingye.github.io/post/xian-duan-shu.html</guid><pubDate>Tue, 12 Nov 2024 13:21:04 +0000</pubDate></item><item><title>计算几何---判断四边形是否为凸四边形板子</title><link>https://xiexingye.github.io/post/ji-suan-ji-he-----pan-duan-si-bian-xing-shi-fou-wei-tu-si-bian-xing-ban-zi.html</link><description>````&#13;
 #include &lt;iostream&gt;&#13;
 #include &lt;cstring&gt;&#13;
